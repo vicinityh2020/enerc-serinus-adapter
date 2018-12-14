@@ -115,3 +115,20 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# User defined
+MAX_LIMIT = 20
+
+ADAPTER_ID = 'enerc-serinus'
+
+PROPERTY_TEMPERATURE    = 'temperature'
+PROPERTY_NOISE          = 'noise_ai1'
+PROPERTY_HUMIDITY       = 'humidity'
+PROPERTY_LIGHT          = 'light'
+PROPERTY_MOVEMENT       = 'movement'
+PROPERTY_CO2            = 'co2'
+
+THING_DESCRIPTION = {
+    "adapter-id": ADAPTER_ID,
+    "thing-descriptions": []
+}
